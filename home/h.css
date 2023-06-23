@@ -1,0 +1,514 @@
+body{
+    width:98.5vw;  
+     display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+}
+.discoveryBackground{
+    height:100vh; 
+    width:100%;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+ 
+  
+   
+} 
+video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+#image1{
+    width:40px;
+    height: 40px;
+    filter: invert(100%);
+}
+.home-header{
+    height: 50%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 550px;
+
+    
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.logo1{
+    height: 100%;
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.logopic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.discovery{
+    font-size: 25px;
+}
+.nameCompany{
+    font-size: 11px;
+    /* font-weight: no; */
+    margin-left: 2px;
+
+}
+.home-titlepoint{
+   height: 100%;
+   width:40%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   margin-right: 100px;
+   cursor: pointer;
+  
+}
+#home{
+    height: 18px;
+    width:18px;
+    background:transparent;
+    filter: invert(100%);
+    
+}
+
+.left-news{
+    height:35%;
+    width:70%;
+    color: white;
+    font-size: 60px;
+   
+     display: flex; 
+     flex-direction: column;
+    justify-content: center;
+    
+     align-items: center;
+     position: relative;
+     bottom: 400px;
+     line-height: 1;
+}
+#news2{
+   margin-left: 60px;
+    
+}
+.page1{
+    height:180vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+   
+    
+}
+.left-part{
+    width:50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly; 
+    
+}
+.message{
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.welcome-message{
+    width:65%;
+    height: 20%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+   
+   
+    font-size: 30px;
+  
+}
+ .welcome{
+    width:100%;
+    /* / */
+    /* line-height:5; */
+    
+} 
+.ourworld{
+    width:100%;
+    /* height:10%; */
+    /* line-height:5; */
+    
+}
+.Welcome-content{
+    width:80%;
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-img{
+    width:100%;
+    height: 60%;
+   
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+img{
+height: 60%;
+width: 70%;
+
+}
+.right-part1{
+    width:50%;
+    height: 100%; 
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center; 
+   
+}
+.right-img{
+    width:80%;
+    height:70%;
+    background-image: url("https://discoverylandco.com/imager/images/11062/Yellowstone-Club-2_76fe09b415dcada4f46ba4114338562c.png");
+   margin-top: 120px;
+    
+}
+.page2{
+    height: 350vh;
+    background-color:whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.page2-top{
+    height: 35%;
+    width:100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-portion{
+    
+    height:60%;
+    width:80%;
+    font-size: 20px;
+    line-height: 2;
+     display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    line-height: 1;  
+    color: black;
+}
+  
+.landsOf{
+    width:100%;
+    font-weight: bold;  
+}
+.discoveryline{
+    width:100%;
+   
+}
+.middle-portion{
+    height:40%;
+    width:80%;
+    font-size: 20px;
+    color: white;
+   display: flex;
+   flex-direction: column;
+  
+   align-items: flex-start;
+    color: black;
+   
+}
+.page2-bottom{
+    width:100%;
+    height:70%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.earth-image{
+    width:50%;
+    height:100%;
+    background-image: url(images/1.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+.img-text-block{
+    width:50%;
+    height: 90%;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info-block{
+    height: 80%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     background-color: black;
+  
+    
+  
+}
+.info-align{
+    height: 60%;
+    width:100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding-left: 50px;
+    position: relative;
+    top:30px;
+}
+.info-content{
+    height: 80%;
+    width:50%;
+    
+    display: block;
+
+}
+.temp1{
+    position: relative;
+    top:20px;
+}
+
+
+.place1{
+    color: grey;
+    font-size: 20px;
+   
+    position: relative;
+    top: 25px;
+}
+.subject1{
+    font-size: 25px;
+    
+   
+  
+}
+.location1{
+    color: grey;
+  
+    font-size: 13px;
+    
+}
+ .img-slide,.img-block{
+    height: 100%;
+    width:100%;
+   
+} 
+
+#img-box{
+    width:100%;
+    height: 100%;
+    display: block;
+}
+
+
+
+.button-1{
+
+    height: 10%;
+    width:10%;
+   
+      
+   
+}
+.left-button,.right-button{
+    color: white;
+    margin-right: 550px;
+    /* margin-top: 40px; */
+    /* border:2px solid red; */
+    position: relative;
+    top:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+  
+
+
+
+}
+.right-button{
+    margin-right: 900px;
+    
+ } 
+ .page-3{
+    height:150vh;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+.img-1{
+    width:33.3%;
+    height:100%;
+    background-image: url("https://discoverylandco.com/imager/images/11020/amazing-pool-2_fc98236fcd7afd38ca0fd181cf61bcb6.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+}
+.img-2{
+    width:33.3%;
+    height:100%;
+    background-image: url("https://discoverylandco.com/imager/images/729/lifestyle_slider_190716_095537_fc98236fcd7afd38ca0fd181cf61bcb6.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+}
+.img-3{
+    width:33.3%;
+    height:100%;
+    background-image: url("https://discoverylandco.com/imager/images/730/wellness_slider_190716_095551_90f8ce634cc6ad7a15d605007f03ee5c.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+}
+.text1{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.Footer{
+    width:100%;
+    height:200vh;
+    background-color: #1d2525;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.topfooter{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logospace{
+    width:20%;
+    height: 55%;
+ 
+    display: flex;
+    flex-direction: row;  
+    align-items: center; 
+    justify-content: center; 
+}
+#footer-logo{
+    /* margin-bottom: 80px ; */
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+}
+.middle{
+    width:40%;
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.main{
+    width:30%;
+    height:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+   
+ 
+ } 
+ .main1{
+    width:90%;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .main-left{
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+ }
+ .main-right{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+ }
+ .info{
+    color: white;
+    line-height: 2;
+    cursor: pointer;
+ }
+ .contact1{
+    color: rgb(51,96,51);
+ }
+
+.bottom{
+height: 20%;
+ width:90%;
+ display: flex;
+ color: white;
+ justify-content: space-between; 
+
+} 
